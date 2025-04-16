@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url(images/gradient-video-game-background_23-2150295326.avif);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Poppins" , sans-serif;
+}
+.container{
+border: none;
+border-radius: 15px;
+background-color: rgba(50, 19, 75, 0.712);
+filter: drop-shadow(10);
+height: auto;
+width: 30vw;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 15px;
+}
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    border: none;
+    background-color: rgba(50, 19, 75, 0.712);
+    filter: drop-shadow(10);
+    border-bottom: 2px solid white;
+    color: aliceblue;
+}
+
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    transition: 0.2s ease-in-out;  
+    font-weight: bold;
+    background-color: rgba(180, 0, 216, 0.644);
+    color: aliceblue;
+    transition: 0.4s ease-in-out;  
+
+}
+button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.4s ease-in-out;  
+}
+ul{
+    
+    list-style: none;
+    padding: 15px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(180, 0, 216, 0.644);
+    padding: 8px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 90px;
+    font-family: "Caveat" , cursive;
+    color: aliceblue;
+}
+::placeholder{
+    color: aliceblue;
+}
+.task-List{
+    color: aliceblue;
+}
