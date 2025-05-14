@@ -1,0 +1,35 @@
+ ✅ To-Do List App
+
+A simple || To-Do List || web application built with | HTML | CSS | JavaScript | . It allows users to add, edit, delete, and mark tasks as completed. Perfect for managing daily tasks!
+
+
+---
+
+ 📋 Features
+
+- ✅ Add tasks
+- ✏️ Edit tasks
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+- 🔄 Store tasks in localStorage (persistent across sessions)
+- 🖥️ Fully responsive UI for all devices
+
+---
+
+🛠️ Technologies Used
+
+- | HTML5 | – Structure and layout  
+- | CSS3 | – Styling and responsiveness  
+- | JavaScript (ES6) | – Functionality and DOM manipulation  
+- | localStorage |– Store tasks for persistence  
+
+---
+
+📂 Project Structure
+
+```bash
+todo-list/
+├── index.html           # Main HTML file
+├── style.css            # Styling file
+├── script.js            # JavaScript logic
+└── README.md            # Project documentation
